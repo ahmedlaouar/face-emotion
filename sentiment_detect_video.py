@@ -62,7 +62,7 @@ while True:
             label=resultat[sentiment]
             color=(0,255,0)
             #display the label and bounding boxes
-            cv2.putText(frame,label,(start_x,start_y-10),cv2.FONT_HERSHEY_SIMPLEX,0.45,color,2)
+            cv2.putText(frame,label,(start_x,start_y-10),cv2.FONT_HERSHEY_SIMPLEX,0.8,color,2)
 
             cv2.rectangle(frame,(start_x,start_y),(end_x,end_y),color,2)
         #show the output frame
